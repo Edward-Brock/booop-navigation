@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Avenir", "Luxi Sans", "Segoe UI", "黑体", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Apple Logo";
+}

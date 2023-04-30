@@ -2,10 +2,10 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import NavLogin from "../views/NavLogin.vue";
 import NavAdmin from "../views/NavAdmin.vue";
-import AdminWebsite from "../components/AdminWebsite.vue";
-import AdminAddWebsite from "../components/AdminAddWebsite.vue";
-import AdminClassify from "../components/AdminClassify.vue";
-import AdminAddClassify from "../components/AdminAddClassify.vue";
+import AdminWebsite from "../components/Admin/AdminWebsite.vue";
+import AdminAddWebsite from "../components/Admin/AdminAddWebsite.vue";
+import AdminClassify from "../components/Admin/AdminClassify.vue";
+import AdminAddClassify from "../components/Admin/AdminAddClassify.vue";
 import { useLoginStore } from "../stores/login";
 
 const router = createRouter({

@@ -1,7 +1,7 @@
 <script setup>
-import NavAside from "../components/NavAside.vue";
-import NavHeader from "../components/NavHeader.vue";
-import NavMain from "../components/NavMain.vue";
+import NavAside from "../components/Home/NavAside.vue";
+import NavHeader from "../components/Home/NavHeader.vue";
+import NavMain from "../components/Home/NavMain.vue";
 import "element-plus/theme-chalk/display.css";
 
 // 左侧侧边栏 Aside 宽度

@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import emitter from "../untils/bus";
+import emitter from "../../untils/bus";
 
 let listArray = ref();
 

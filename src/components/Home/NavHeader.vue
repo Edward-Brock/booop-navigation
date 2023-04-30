@@ -1,12 +1,12 @@
 <script setup>
-import logo_pic_light from "../assets/logo_396_118_black.png";
-import logo_pic_dark from "../assets/logo_396_118_white.png";
+import logo_pic_light from "../../assets/logo_396_118_black.png";
+import logo_pic_dark from "../../assets/logo_396_118_white.png";
 import { useDark, useToggle } from "@vueuse/core";
 import { Sunny, Moon } from "@element-plus/icons-vue";
 import { onMounted, reactive, ref, watch } from "vue";
-import emitter from "../untils/bus";
+import emitter from "../../untils/bus";
 import LocationWeather from "./LocationWeather.vue";
-import router from "../router";
+import router from "../../router";
 
 // 暗黑模式
 const isDark = useDark();

@@ -1,7 +1,7 @@
 <script setup>
 import { useLoginStore } from "../stores/login";
-import NavHeader from "../components/NavHeader.vue";
-import AdminAside from "../components/AdminAside.vue";
+import NavHeader from "../components/Home/NavHeader.vue";
+import AdminAside from "../components/Admin/AdminAside.vue";
 
 const auth = useLoginStore();
 // 左侧侧边栏 Aside 宽度

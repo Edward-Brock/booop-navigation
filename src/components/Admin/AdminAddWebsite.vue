@@ -2,7 +2,7 @@
 import { onMounted, reactive, ref } from "vue";
 import axios from "axios";
 import { ElMessage } from "element-plus";
-import router from "../router";
+import router from "../../router";
 
 onMounted(() => {
   axios({

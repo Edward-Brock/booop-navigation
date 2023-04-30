@@ -1,7 +1,7 @@
 {
   "name": "booop-navigation-next-server",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "booop 导航服务端，采用 Express 框架构建",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
