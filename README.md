@@ -14,10 +14,13 @@ booop navigation 开源练手导航，前端使用 Vue.js / Vite 进行构建，
 
 - [Vue 3](https://cn.vuejs.org/)
 - [Vite](https://cn.vitejs.dev/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
 - [Element Plus](https://element-plus.gitee.io/zh-CN/)
 - [Axios](https://axios-http.com/)
 - [mitt.js](https://github.com/developit/mitt)
 - [VueUse](https://vueuse.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ### 服务端
 
