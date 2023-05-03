@@ -12,7 +12,7 @@ booop navigation 开源练手导航，前端使用 Vue.js / Vite 进行构建，
 
 ## 项目截图
 
-![浅色模式显示效果](public\booop_navigation_website_demo_light.png)
+![浅色模式显示效果](./public/booop_navigation_website_demo_light.png)
 
 ## 使用技术
 
