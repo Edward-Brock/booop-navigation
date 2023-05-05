@@ -1,5 +1,5 @@
 <script setup>
-import {onMounted, reactive} from "vue";
+import { onMounted, reactive } from "vue";
 import axios from "axios";
 import emitter from "../../untils/bus";
 
@@ -104,19 +104,19 @@ function checkMouseButton(cardInfo, event) {
 
 <template>
   <div content="container">
-    <div v-for="(classifyList,index) in website_info.navigationInfoArray" key="classifyList[0].classify_id">
+    <div v-for="(classifyList, index) in website_info.navigationInfoArray" key="classifyList[0].classify_id">
       <!--导航分类标题-->
       <div class="classify_title" :id="'tag' + index">{{ classifyList[0].classify_title }}</div>
       <!--导航卡片组-->
       <div class="card_group">
         <div class="card_info" v-for="cardInfo in classifyList" :key="cardInfo.id"
-             @mousedown="checkMouseButton(cardInfo, $event)">
+          @click="checkMouseButton(cardInfo, $event)">
           <div class="card_info_title">{{ cardInfo.website_title }}</div>
           <div class="card_info_subtitle">{{ cardInfo.website_subtitle }}</div>
         </div>
       </div>
     </div>
-    <el-backtop/>
+    <el-backtop />
   </div>
 </template>
 
@@ -153,7 +153,7 @@ function checkMouseButton(cardInfo, event) {
   display: flex;
   flex-direction: column;
 
-  &:hover {
+  &:active {
     cursor: pointer;
     background: rgba(0, 0, 0, .015);
     border: 2px solid rgb(0, 0, 0, .015);
@@ -162,7 +162,6 @@ function checkMouseButton(cardInfo, event) {
 
     .card_info_title {
       color: rgba(0, 0, 0, 1);
-      text-decoration: underline wavy rgba(0, 0, 0, .75);
       border-bottom: 2px;
     }
   }
@@ -178,8 +177,6 @@ function checkMouseButton(cardInfo, event) {
   font-weight: bold;
   color: rgba(0, 0, 0, .5);
   margin-bottom: 6px;
-  text-decoration: underline rgba(0, 0, 0, .075);
-  text-underline-offset: 4px;
 }
 
 .card_info_subtitle {

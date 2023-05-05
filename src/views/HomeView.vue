@@ -32,6 +32,7 @@ const navHeaderHeight = 60;
 <style scoped lang="scss">
 .common-layout {
   background: rgba(255, 255, 255, 1);
+  user-select: none;
 }
 
 .aside {
